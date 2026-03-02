@@ -2,7 +2,7 @@ name: Liferay Workspace GCP Deployment
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   workflow_dispatch:
     inputs:
       environment:
