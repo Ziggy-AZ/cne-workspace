@@ -32,7 +32,7 @@ jobs:
       - name: Build OSGi modules
         run: |
           chmod +x gradlew
-          ./gradlew build
+          ./gradlew build -x pushImage
 
       - name: Upload OSGi modules to GCS
         uses: google-github-actions/upload-cloud-storage@v2
